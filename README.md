@@ -1,16 +1,46 @@
-# blindz_app
+# Blinder 🎁
 
-A new Flutter project.
+**Blinder** is an open-source mobile app for blindboxer fans — track restocks, explore upcoming drops, and open your very own daily blind box!
 
-## Getting Started
+Whether you're into collectibles, streetwear, or figure unboxings, Blinder brings the hype directly to your fingertips.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 🎯 Who it's for
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Blindbox lovers, streetwear fans, and release calendar addicts who want:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- 🧭 A clean, mobile-first tracker for product drops
+- 📰 Curated restock and news updates
+- 🎁 Daily blindbox openings with randomized items
+- 🗓️ A simple release calendar
+- ❤️ Like/dislike voting for new drops
+
+---
+
+## 📲 Features
+
+- 🔥 Track upcoming and recent blindbox drops
+- 🔄 View restocks and trending releases
+- 💬 Vote (like/dislike) on items
+- 🎁 Open a **daily blindbox** from inside the app
+- 📱 Built with Flutter for Android/iOS/Web
+
+---
+
+## 🛠 Getting Started
+
+```bash
+git clone https://github.com/MarianoAkaMery/Blinders.git
+cd Blinders
+flutter pub get
+flutter run
+````
+
+## 🌍 Domain
+
+Check it out (soon) at: [https://blinder.world](https://blinder.world)
+
+## 📝 License
+
+This project is released under the [MIT License](LICENSE).
