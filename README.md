@@ -8,7 +8,7 @@ Whether you're into collectibles, streetwear, or figure unboxings, Blinder bring
 
 ## 🎯 Who it's for
 
-Blindbox lovers, streetwear fans, and release calendar addicts who want:
+Blindbox lovers, and release calendar addicts who want:
 
 - 🧭 A clean, mobile-first tracker for product drops
 - 📰 Curated restock and news updates
