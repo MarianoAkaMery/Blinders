@@ -4,7 +4,7 @@ import 'package:blindz_app/pages/release/data/prodcut_struct.dart';
 import 'package:flutter/material.dart';
 
 class ReleasePage extends StatefulWidget {
-  ReleasePage({super.key});
+  const ReleasePage({super.key});
 
   @override
   State<ReleasePage> createState() => _ReleasePageState();
