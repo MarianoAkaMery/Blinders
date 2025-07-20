@@ -13,9 +13,10 @@ class ReleaseBox extends StatelessWidget {
     return Container(
       margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 8.0),
       decoration: BoxDecoration(
-        border: Border.all(color: const Color(0xFFE0E0E0)),
+        //border: Border.all(color: const Color(0xFFE0E0E0)),
         borderRadius: BorderRadius.circular(8.0),
       ),
+
       padding: const EdgeInsets.all(8),
       child: Column(
         children: [
@@ -49,11 +50,7 @@ class ReleaseBox extends StatelessWidget {
                 ),
                 const SizedBox(height: 8),
                 Text(
-                  "${product.productPrice} ",
-                  style: Theme.of(context).textTheme.bodySmall,
-                ),
-                Text(
-                  "${product.productDropTime} ",
+                  "Price: ${product.productPrice} ",
                   style: Theme.of(context).textTheme.bodySmall,
                 ),
 
