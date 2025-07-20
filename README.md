@@ -39,7 +39,7 @@ flutter run
 
 ## 🌍 Domain
 
-Check it out (soon) at: [https://blinder.world](https://blinder.world)
+Check it out (soon) at: [https://blinders.world](https://blinders.world)
 
 ## 📝 License
 
