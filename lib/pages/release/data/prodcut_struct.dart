@@ -6,6 +6,7 @@ class Product {
   final int productLike;
   final int productDislike;
   final String productDropTime;
+  final String category;
 
   Product({
     required this.title,
@@ -15,5 +16,6 @@ class Product {
     required this.productLike,
     required this.productDislike,
     required this.productDropTime,
+    required this.category,
   });
 }
