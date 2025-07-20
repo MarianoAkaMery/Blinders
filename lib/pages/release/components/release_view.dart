@@ -4,7 +4,7 @@ import 'package:blindz_app/pages/release/components/product_box.dart';
 import 'package:intl/intl.dart';
 
 class ReleaseViewList extends StatelessWidget {
-  ReleaseViewList({
+  const ReleaseViewList({
     super.key,
     required this.searchQuery,
     required this.category,

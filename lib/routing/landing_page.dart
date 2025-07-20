@@ -27,7 +27,23 @@ class _RoutingPagesState extends State<RoutingPages> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: screenList[_bottomNavIndex],
+      body: AnimatedSwitcher(
+        duration: const Duration(milliseconds: 250),
+        transitionBuilder: (Widget child, Animation<double> animation) {
+          return SlideTransition(
+            position: Tween<Offset>(
+              begin: const Offset(0.0, 0.1),
+              end: Offset.zero,
+            ).animate(animation),
+            child: FadeTransition(opacity: animation, child: child),
+          );
+        },
+        // Add a Key so Flutter knows the widget changed
+        child: KeyedSubtree(
+          key: ValueKey<int>(_bottomNavIndex),
+          child: screenList[_bottomNavIndex],
+        ),
+      ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           // action
