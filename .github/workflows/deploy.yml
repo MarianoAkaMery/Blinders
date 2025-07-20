@@ -10,23 +10,23 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v3
+      - uses: actions/checkout@v3
 
-    - uses: subosito/flutter-action@v2
-      with:
-        flutter-version: 'stable'
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.22.1'
 
-    - name: Enable web
-      run: flutter config --enable-web
+      - name: Enable web
+        run: flutter config --enable-web
 
-    - name: Install dependencies
-      run: flutter pub get
+      - name: Install dependencies
+        run: flutter pub get
 
-    - name: Build web
-      run: flutter build web
+      - name: Build web
+        run: flutter build web
 
-    - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: build/web
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: build/web
