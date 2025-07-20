@@ -27,6 +27,9 @@ jobs:
       - name: Build web
         run: flutter build web
 
+      - name: Add CNAME for custom domain
+        run: echo 'blinders.world' > build/web/CNAME
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
